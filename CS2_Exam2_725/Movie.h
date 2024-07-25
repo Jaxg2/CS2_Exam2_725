@@ -13,7 +13,7 @@ private:
 	vector <Person> cast;
 	int runtime;
 public:
-	bool isLongMovie(int min);
+	bool isLongMovie(int runtime);
 
 };
 

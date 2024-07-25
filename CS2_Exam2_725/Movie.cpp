@@ -4,12 +4,12 @@
 using namespace std;
 
 
-bool Movie::isLongMovie(int min)
+bool Movie::isLongMovie(int runtime)
 {
 	cout << "Enter the runtime of the movie in minutes: " << endl;
-	cin >> min;
+	cin >> runtime;
 
-	if (min > 135)
+	if (runtime > 135)
 	{
 		return true;
 	}

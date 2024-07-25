@@ -10,7 +10,7 @@ private:
 	double latitude;
 	double longitude;
 public:
-	City();
+	City(double latitude, double longitude);
 	string getName();
 	double getLatitude();
 	double getLongitude();

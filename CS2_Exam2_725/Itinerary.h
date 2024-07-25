@@ -10,10 +10,16 @@ class Itinerary
 {
 private:
 	vector <City> cities;
+	double distance;
+	City latitude;
+	City longitude;
 public:
 	string getCities();
 	string addCity();
-	static double getDistance();
+	static double getDistance(double distance);
+	int getDistance();
+	int getLat();
+	int getLong();
 };
 
 #endif
